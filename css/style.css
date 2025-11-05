@@ -43,7 +43,7 @@ body {
 
 
 .nav-item {
-  display: flex;
+  display: flex ;
   align-items: center;
 }
 
@@ -66,6 +66,47 @@ body {
   .nav-logo {
     margin-bottom: 10px;
   }
+}
+
+
+.par-1 {
+  color: white;
+  margin-top: 50px;
+  border-left: 6px solid #6c9aaf;
+  font-size: larger;
+}
+
+
+.par-2 {
+  color: white;
+  margin-top: 150px;
+  margin-left: 1428px;
+  border-right: 6px solid #6c9aaf;
+  font-size: larger;
+}
+
+
+
+
+.par-1:hover {
+  color: #ffdd57; 
+}
+
+.par-2:hover {
+  color: #ffdd57; 
+}
+
+.par-3:hover {
+  color: #ffdd57; 
+}
+
+
+.photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  
 }
 
 
