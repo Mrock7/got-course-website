@@ -60,13 +60,15 @@
         border-radius:12px;
         padding:1.25rem;
         box-shadow:0 6px 20px rgba(15,23,42,.06);
-        margin-bottom:1.25rem
+        margin-bottom:1.25rem;
+        color: #79b8d6;
     }
 
         .grid{
         display:grid;
         grid-template-columns:
-        repeat(3,1fr);gap:1rem
+        repeat(3,1fr);gap:1rem;
+        
     }
 
         @media (max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
@@ -111,12 +113,6 @@
             padding:.5rem .75rem;
             border-radius:10px;
             box-shadow:0 3px 10px rgba(15,23,42,.04)
-        }
-
-        footer{
-            padding:1.5rem 0;
-            color:var(--muted);
-            text-align:center
         }
 
         .contact{
