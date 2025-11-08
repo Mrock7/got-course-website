@@ -183,3 +183,36 @@ header nav a {
     text-align: center;
   }
 }
+
+
+
+.stat-number {
+  transition: font-size 0.3s ease;
+}
+
+.par-1 {
+  cursor: pointer;
+}
+
+
+.par-2 {
+  cursor: pointer;
+}
+
+.lang-btn {
+  margin: 10px 2%;
+  padding: 0.5rem 1rem;
+  background-color: #5f89a1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+  background-color: #79b8d6;
+  transform: translateY(-2px);
+}
+
