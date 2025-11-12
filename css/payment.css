@@ -1,0 +1,44 @@
+
+
+h2.text-primary {
+  color: #0288d1 !important;
+}
+
+.plan-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.featured {
+  background-color: #b3e5fc;
+  border: 2px solid #81d4fa;
+}
+
+.featured .btn-primary {
+  background-color: #0288d1;
+  border-color: #0288d1;
+}
+
+.free-card {
+  background-color: #e8f5e9;
+  border: 2px solid #a5d6a7;
+}
+
+.free-card .btn-success {
+  background-color: #66bb6a;
+  border: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}

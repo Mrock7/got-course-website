@@ -1,8 +1,9 @@
 body {
-  background: linear-gradient(135deg, #b3e5fc, #e3f2fd);
-  font-family: 'Poppins', sans-serif;
+  background-color: #6b9fec !important;
   margin: 0;
+  font-family: Arial, sans-serif;
 }
+
 
 .signin-card {
   width: 100%;
