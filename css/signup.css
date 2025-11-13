@@ -1,0 +1,78 @@
+body {
+  background-color: #6b9fec !important;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  background: #b3e5fc;
+  padding: 2rem 1rem;
+}
+
+.header h3 {
+  color: #01579b;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.header p {
+  margin: 0;
+  color: #0277bd;
+}
+
+.form-control:focus {
+  border-color: #81d4fa;
+  box-shadow: 0 0 0 0.2rem rgba(129, 212, 250, 0.25);
+}
+
+.btn-primary {
+  background: #81d4fa;
+  border: none;
+  color: #01579b;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #4fc3f7;
+  color: #fff;
+}
+
+.link {
+  color: #0288d1;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 0;
+  color: #0277bd;
+}
+
+.form-check-label {
+  color: #01579b;
+  font-weight: 500;
+}
+
+.form-check-input:checked {
+  background-color: #4fc3f7;
+  border-color: #4fc3f7;
+}
+
+label {
+  color: #01579b;
+  font-weight: 500;
+}
