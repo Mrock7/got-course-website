@@ -1,5 +1,9 @@
 $(document).ready(function() {
   
+  console.log("JavaScript loaded!");
+  console.log("Found buttons:", $('.lang-btn').length);
+  console.log("Found par-1:", $('.par-1').length);
+  
   $('#year').text(new Date().getFullYear());
 
   $('.stat-item').hover(
@@ -41,11 +45,11 @@ $(document).ready(function() {
     currentLang[target] = (currentLang[target] + 1) % languages.length;
     var newLang = languages[currentLang[target]];
     
-    var paragraph = $('.' + target).first();
+  
+    var paragraph = $('.' + target + ' p').first();
     var newText = paragraph.attr('data-' + newLang);
     paragraph.html(newText);
   });
 
 });
-
 
