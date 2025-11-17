@@ -1,7 +1,16 @@
 body {
-  background-color: #6b9fec !important;
+  background-color: #5a8edd !important;
   margin: 0;
   font-family: Arial, sans-serif;
+}
+
+.custom-section {
+    background-color: #1468e7;
+    padding: 40px 20px;
+    border-radius: 20px; 
+    width: 80%;
+    margin: 40px auto; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
 }
 
 header nav {

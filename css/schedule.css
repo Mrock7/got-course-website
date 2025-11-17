@@ -1,13 +1,19 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: #ffe6f2; 
-    margin: 0;
+    
 }
 
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #181818;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #181818;
     margin-bottom: 40px;
 }
 
@@ -38,17 +44,18 @@ table:hover {
 
 caption {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     background: #0078d7;
     color: white;
     padding: 12px;
+    
 }
 
 th, td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-    font-size: 0.95em;
+    font-size: 0.95rem;
 }
 
 
@@ -66,4 +73,8 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #f1f7ff;
 }
+ 
 
+.fullscreen {
+  width: 450vw;   
+}
